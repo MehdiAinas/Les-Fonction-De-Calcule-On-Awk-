@@ -49,3 +49,7 @@ awk '{print $3}' nomawk
 
 awk "BEGIN { print \"afficher le colonne des cne\" }"
 awk '{print $4}' nomawk
+
+
+awk "BEGIN { print \"afficher le colonne de nom et prenom\" }"
+awk '{print $1,$2}' nomawk
